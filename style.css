@@ -1,0 +1,185 @@
+.h1, h1 {
+  font-size: 4.5rem;
+}
+
+#logo {
+    padding: 0.9375rem;
+    transition: transform .3s;
+    margin: 0 auto;
+}
+img#logo:hover {
+  transform: scale(.9);
+}
+.jumbotron {
+    padding top: 3brem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    background-image: url('img/icebreaker_hero_11.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+   
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding top: 6brem;
+      padding-bottom: 6rem;
+    }
+  }
+  
+  .jumbotron p: last-child {
+    margin-bottom: 0;
+    
+  }
+  
+  .jumbotron p  {
+    color: white;
+  }
+  .jumbotron h1 {
+    font-weight: 500;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+    /*background: rgba(255,102,0,0.2);*/
+    padding: 2rem;
+    color: white;
+  }
+  
+  .btn-primary {
+    min-width: 11.875rem;
+    font-size: 1.3rem;
+    background: none;
+    padding: 0.75rem 1.75rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 3.5rem;
+    border: solid #fff;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #f60;
+    border-color: #f60; /*set the color you want here*/
+}
+
+.card.mb-4.shadow-sm:hover {
+  transform: scale(.9);
+}
+
+.card.mb-4.shadow-sm {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+
+.content {
+margin-top: 4.25rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+#sign-up {
+margin-top: 2rem;
+}
+/*email info*/
+.email-error-message {
+  color: #f60;
+  margin-bottom: .7rem;
+  font-size: .8rem;
+  display: none;
+}
+.email-error-message-active {
+  display: block;
+}
+
+.email-form-group-error{
+  border: 1px solid red;
+}
+
+.email-thank{
+  color: #f60;
+  margin-bottom: .7rem;
+  font-size: 1.1rem;
+  display: none;
+}
+
+.email-thank-success {
+  display: block;
+}
+
+
+
+h5.free-shipping {
+    color: #f60;
+    padding-bottom: 2rem;
+}
+
+.btn-secondary {
+    min-width: 11.875rem;
+    font-size: 0.875rem;
+    color: #fff;
+    text-align: center;
+    background: #231f20;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary {
+    color: #fff;
+    background-color: #f60;
+    border-color: #f60; /*set the color you want here*/
+}
+#button-addon2 {
+    margin-left: 0.9375rem;
+    border-radius: .3rem;
+
+}
+
+
+    @media (min-width: 769px){
+        .col-border:before{
+            content:"";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            border-left: 1px solid black;
+        }
+        .col-border-padding {
+            padding-left: 1.5rem;
+
+        }
+        
+    }
+
+    
+
+    @media (max-width: 420px){
+        #button-addon2 {
+            min-width: 5.875rem;
+        }
+        .col-border-padding {
+            margin-top: 3rem;
+        }
+        .h1, h1 {
+          font-size: 2.5rem;
+        }
+    }
+
+   @media (max-width: 768px){
+
+    /*.jumbotron {
+        background-image: url('img/icebreaker_hero_ipad.jpg');
+      }*/
+      
+    }
